@@ -101,11 +101,11 @@ Points added Successfully
    
 ### Response
 
-    {
-       "UNILEVER": 0,
-       "MILLER COORS": 5300,
-       "DANNON": 1000
-    }
+{
+   "UNILEVER": 0,
+   "MILLER COORS": 5300,
+   "DANNON": 1000
+}
     
     Status: 200 OK
     Content-Type: application/json
