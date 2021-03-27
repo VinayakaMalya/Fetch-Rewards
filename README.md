@@ -28,7 +28,7 @@ swagger-ui looks like this:
 
 # REST API document
 
-## Add trnasaction points to  user account
+## Add transaction points to  user account
 
 ### URL : http://localhost:8091/transaction/add
 
