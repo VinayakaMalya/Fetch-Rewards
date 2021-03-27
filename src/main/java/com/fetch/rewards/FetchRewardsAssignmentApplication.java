@@ -9,5 +9,4 @@ public class FetchRewardsAssignmentApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FetchRewardsAssignmentApplication.class, args);
 	}
-
 }
