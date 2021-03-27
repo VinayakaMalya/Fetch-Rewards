@@ -57,7 +57,7 @@ Points added Successfully
 
 ### URL : http://localhost:8091/userAccount/spend
 
-### POST Request
+### DELETE Request
 {
     "points" : 5000
 }
