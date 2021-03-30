@@ -78,7 +78,6 @@ public class TransactionServiceImpl implements TransactionService
 	public List<UsedPointResponse> spendPoints(Integer points) 
 	{
 		
-		System.out.println("Spend Point total "+balance+" and spendPoint is "+points);
 		if(balance<points)
 		{
 			// Insufficient funds;
@@ -134,6 +133,7 @@ public class TransactionServiceImpl implements TransactionService
 				//Updating the balance after spending 
 				balance = balance - spentPoints.get(key);
 			}
+			spentPoints.clear();
 			return responseList; 
 		}
 	}
